@@ -1,0 +1,20 @@
+@import "./tailwind.css";
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 100vh;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffff;
+}
+
+#nprogress .bar {
+  background: #e9c249 !important;
+}
